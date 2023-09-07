@@ -3,17 +3,9 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <h2>Kopa Samsu Store</h2>
+            <h1>Kopa Samsu Store</h1>
         </div>
     );
 };
-
-export const Footer = () => {
-    return (
-        <>
-            <h1>This is Footer</h1>
-        </>
-    )
-}
 
 export default Navbar;
