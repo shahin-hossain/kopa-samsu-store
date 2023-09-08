@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar' //এটাকে বলে Rela
 import Card from './components/Card/Card';
 // import { Footer } from './components/Navbar/Navbar' //যদি একই folder থেকে ২টা component or function পাঠানো হয় তাহলে import করার পদ্ধতি হল
 import Modal from 'react-modal';
+import AddedCart from './components/AddedCart/AddedCart';
 
 const customStyles = {
   content: {
@@ -63,7 +64,7 @@ function App() {
       >
         <button onClick={closeModal} >Close</button>
         <h2> added Cart: {cart.length}</h2>
-        {cart.map(gun => <h2>{gun.name}</h2>)}
+        {cart.map(gun => <AddedCart gun={gun}></AddedCart>)}
       </Modal> {/*Modal Component*/}
     </>
   )

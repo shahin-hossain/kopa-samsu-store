@@ -1,0 +1,15 @@
+.cart-list {
+    display: flex;
+    padding: 5px;
+    background-color: bisque;
+    margin: 10px;
+}
+
+.list-cart-body {
+    padding: 5px;
+}
+
+.list-img {
+    width: 100px;
+    height: 100px;
+}
